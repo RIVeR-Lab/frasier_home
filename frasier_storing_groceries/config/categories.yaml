@@ -1,0 +1,21 @@
+cloth: cleaning
+sponge: cleaning
+scrubby: cleaning
+
+crackers: snack
+pringles: snack
+potato_chips: snack
+
+apple: fruit
+orange: fruit
+paprika: fruit
+
+coke: drinks
+sprite: drinks
+orange_juice: drinks
+grape_juice: drinks
+chocolate_drink: drinks
+
+noodles: food
+sausages: food
+cereal: food
