@@ -1,0 +1,26 @@
+repositories:
+
+  point_cloud_proc:
+    type: git
+    url: git@github.com:tkelestemur/point_cloud_proc.git
+    version: master
+
+  frasier_openrave:
+    type: git
+    url: git@github.com:tkelestemur/frasier_openrave.git
+    version: master
+
+  darknet_ros:
+    type: git
+    url: git@github.com:tkelestemur/darknet_ros.git
+    version: montreal_2018
+
+  frasier:
+    type: git
+    url: git@github.com:RIVeR-Lab/frasier.git
+    version: develop
+
+  behavior_tree:
+    type: git
+    url: git@github.com:miccol/ROS-Behavior-Tree.git
+    version: master

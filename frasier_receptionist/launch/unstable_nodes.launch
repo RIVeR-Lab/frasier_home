@@ -1,0 +1,7 @@
+<launch>
+	<!-- Start receptionist node -->
+	<node name="receptionist_node" pkg="frasier_receptionist" type="receptionist.py" output='screen'>
+		<param name="use_hsr" type="bool" value="false" />
+    	<remap from="~input_image_topic" to="/usb_cam/image_raw" />
+	</node>
+</launch>

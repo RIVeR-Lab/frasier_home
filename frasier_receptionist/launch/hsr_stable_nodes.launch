@@ -1,0 +1,5 @@
+<launch>
+	<!-- Start openpose server -->
+	<node name="openpose_server" pkg="frasier_openpose" type="pyopenpose_server.py" output="screen"/>
+	<include file="$(find frasier_dialogflow)/launch/dialogflow.launch"/>
+</launch>

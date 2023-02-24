@@ -1,0 +1,10 @@
+angry : angry
+mad : angry
+upset : angry
+disgusted : disgust
+scared : fear
+happy : happy
+sad : sad
+surprise : surprise
+neutral : neutral
+emotionless : neutral

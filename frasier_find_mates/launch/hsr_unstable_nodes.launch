@@ -1,0 +1,7 @@
+<launch>
+	<!-- Start find mates node -->
+	<node name="find_mates_node" pkg="frasier_find_mates" type="find_mates.py" output='screen'>
+		<param name="use_hsr" type="bool" value="true" />
+    	<remap from="~input_image_topic" to="/hsrb/head_rgbd_sensor/rgb/image_raw" />
+	</node>
+</launch>

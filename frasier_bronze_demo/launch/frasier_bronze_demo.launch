@@ -1,0 +1,11 @@
+<launch>
+     <!-- Speech -->
+    <include file="$(find frasier_dialogflow)/launch/dialogflow.launch"/>
+    <!-- NLP -->
+    <node name="frasier_robotify_server" pkg="frasier_nlp" type="robotify_server.py" output="screen"/>
+    <!-- Person Description -->
+    <include file="$(find frasier_person_description)/launch/describe_people_service.launch"/>
+
+    <node name="frasier_bronze_demo" pkg="frasier_bronze_demo" type="frasier_bronze_demo.py" output="screen"/>
+
+</launch>

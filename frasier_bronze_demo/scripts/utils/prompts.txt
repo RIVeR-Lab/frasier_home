@@ -1,0 +1,10 @@
+something about yourself|My name is Frasier and I love supporting humans
+the time|TIME
+what day is tomorrow|TOMORROW
+what day is today|TODAY
+your team's name|My team's name is Northeastern River
+your team's country|My team's country is USA
+your team's affiliation|My team is from Boston, Massachusetts
+the day of the week|WEEKDAY
+the day of the month|DAY
+a joke|JOKE

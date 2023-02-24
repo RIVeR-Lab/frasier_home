@@ -1,0 +1,8 @@
+<launch>
+	<!-- Start webcam node -->
+	<node name="webcam_node" pkg="frasier_person_description" type="launch_webcam.sh"/>
+	<!-- Start openpose server -->
+	<node name="openpose_server" pkg="frasier_openpose" type="pyopenpose_server.py" output="screen"/>
+	<!-- Start webcam visualizer node -->
+    <node name="image_view" pkg="rqt_image_view" type="rqt_image_view" args="/usb_cam/image_raw" respawn="false" output="screen"/>
+</launch>

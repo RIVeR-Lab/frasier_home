@@ -1,0 +1,17 @@
+<launch>
+     <!-- Speech -->
+    <include file="$(find frasier_dialogflow)/launch/dialogflow.launch"/>
+    <!-- Navigation -->
+    <include file="$(find frasier_nav_client)/launch/launch_nav_services.launch"/>
+    <!-- NLP -->
+    <node name="frasier_robotify_server" pkg="frasier_nlp" type="robotify_server.py" output="screen"/>
+    <!-- Darknet_ROS -->
+    <!-- node name="darknet_ros_server" pkg="darknet_ros" type="detection.py" output="screen"/ -->
+    <!-- Person Description -->
+    <include file="$(find frasier_person_description)/launch/describe_people_service.launch"/>
+
+
+    <node name="frasier_gpsr" pkg="frasier_gpsr" type="frasier_gpsr.py" output="screen"/>
+    <node name="frasier_grasp_give_service" pkg="frasier_gpsr" type="frasier_grasp_give_service" output="screen"/>
+
+</launch>
