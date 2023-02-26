@@ -1,0 +1,24 @@
+NE_arena_corner:
+  x: -4.35859489441
+  y: -4.97783041
+NE_living_room_corner:
+  x: -2.74345040321
+  y: -0.106307767332
+NW_arena_corner:
+  x: 1.88754808903
+  y: -1.45319581032
+NW_living_room_corner:
+  x: 0.0843863710761
+  y: 1.59951364994
+SE_arena_corner:
+  x: -8.32844924927
+  y: 1.56796371937
+SE_living_room_corner:
+  x: -4.82862520218
+  y: 3.65645599365
+SW_arena_corner:
+  x: -2.09699249268
+  y: 5.1835474968
+SW_living_room_corner:
+  x: -2.09699249268
+  y: 5.1835474968
