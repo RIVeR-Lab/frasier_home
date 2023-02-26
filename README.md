@@ -89,6 +89,9 @@ sudo apt install ros-melodic-ecl
 4. `git clone https://github.com/tkelestemur/frasier_demos.git`
 5. `catkin build`
 
+**Detectron Installation**
+Detectron2 Install info: https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md
+
 **Instructions for Bringup**   
 
 In order to get all the topics from HSR to one of the already setted up PCs, first make sure HSR is running.

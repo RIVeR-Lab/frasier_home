@@ -1,0 +1,3 @@
+geometry_msgs/Pose[] waypoints
+---
+trajectory_msgs/JointTrajectory trajectory
