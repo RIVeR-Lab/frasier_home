@@ -53,6 +53,12 @@ export GUROBI_HOME=/path/to/gurobi1000/linux64
 Install dependencies:
 ```
 sudo apt install libopenscenegraph-dev libeigen3-dev
+# For Ubuntu 20.04 follow the commands below
+Download OSG3.4.0 from here -- https://www.openscenegraph.com/index.php/download-section/stable-releases/206-openscenegraph-3-4-0-released
+sudo apt-get install libopenscenegraph-dev
+sudo cp /usr/include/osg/CameraNode usr/local/include/osg/
+sudo apt-get remove libopenscenegraph-dev
+# The above is required only when working on Ubuntu 20.04.
 ```
 Trajopt uses Gurobi for the optimization. 
 1. `git clone https://github.com/tkelestemur/trajopt.git`
